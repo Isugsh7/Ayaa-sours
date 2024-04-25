@@ -394,7 +394,7 @@ async def _(event):
                 try:
                     await Tepthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
-                    await event.client.send_file(event.chat_id, "https://t.me/vgyhjhh/2", caption=f'''
+                    await event.client.send_file(event.chat_id, "https://t.me/vgyhjhh/3", caption=f'''
 ⌯ Done caught ! 🐊
 ⤷ User : @{username} 
 ⤷ Clicks : {trys} 
@@ -402,7 +402,7 @@ async def _(event):
 ⤷ By : ( @ayaa77_12 )  
     ''')
                     
-                    await event.client.send_file("@ayaa77_12", "https://t.me/vgyhjhh/2", caption=f'''
+                    await event.client.send_file("@ayaa77_12", "https://t.me/vgyhjhh/3", caption=f'''
 ⌯ Done caught ! 🐊
 ⤷ User : @{username} 
 ⤷ Clicks : {trys} 
