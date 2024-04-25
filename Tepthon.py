@@ -76,16 +76,16 @@ async def _(event):
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("ALsiD - جاري الفحص....")
+    await event.edit("احبج ايوتاتي - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-[Welcome to Source ADNAN]
-☆ VERSION : 3.3
+[Welcome to Source AYAA]
+☆ VERSION : 3.4
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ Source ADNAN : @PP6ZZ @r6r6rr
+☆ Source AYAA : @ayaa77_12
 
 
 -قـم بإرسال `.الاوامر`
